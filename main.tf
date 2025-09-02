@@ -1,10 +1,11 @@
 # Configure the Google Cloud provider
-provider "google" {
+#provider "google" {
   # The GCP project to use
-  project = var.GOOGLE_PROJECT
+#  project = var.GOOGLE_PROJECT
   # The GCP region to deploy resources in
-  region  = var.GOOGLE_REGION
-}
+#  region  = var.GOOGLE_REGION
+#}
+
 
 # Create the GKE (Google Kubernetes Engine) cluster
 resource "google_container_cluster" "this" {
